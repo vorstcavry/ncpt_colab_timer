@@ -112,7 +112,7 @@ onUiLoaded(function () {
 
   let img = document.createElement("img");
   img.src =
-    "https://ssl.gstatic.com/colaboratory-static/common/de56aa663d279b80074b6c21f69dc872/img/favicon.ico";
+    "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg";
   img.width = 24;
 
   let timerEl = document.createElement("div");
