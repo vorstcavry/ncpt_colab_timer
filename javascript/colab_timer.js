@@ -19,7 +19,7 @@ function updateTimer(el) {
   // show different text betwen 4:58 and 5:15
   if (c > 298 && c < 315) {
     el.innerText =
-      "Usually there's captcha at this time, please check your colab (" +
+      "usually the process will slow down, please check the process again (" +
       h +
       ":" +
       m +
@@ -63,7 +63,7 @@ refreshTimer = (timerEl, notext = false) => {
   fetch("file=static/colabTimer.txt", { cache: "no-store", headers: myHeaders })
     .then((response) => {
       if (response.status == 404) {
-        timerEl.innerText = "Error. Colab disconnected!";
+        timerEl.innerText = "Error. disconnected!";
         return;
       }
       response.text().then((text) => {
@@ -108,7 +108,7 @@ onUiLoaded(function () {
   div2.className = "gr-box";
   div2.style =
     "gap: 0.5rem; border-radius:10px; display:flex;align-items:center;border-width:1px; display:flex; cursor: pointer; padding-block: 3px; width: fit-content; padding-inline: 5px; border-color: orange; z-index: 999; background-color: transparent !important;";
-  div2.title = "Colab Timer Integration by NoCrypt. Click to refresh.";
+  div2.title = "Colab Timer Integration by NoCrypt and Vorst Cavry who modified it. Click to refresh.";
 
   let img = document.createElement("img");
   img.src =
