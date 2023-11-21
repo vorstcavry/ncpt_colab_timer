@@ -112,7 +112,7 @@ onUiLoaded(function () {
 
   let img = document.createElement("img");
   img.src =
-    "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg";
+    "https://i.ibb.co/LYyCJ0v/download-48-removebg-preview.png";
   img.width = 24;
 
   let timerEl = document.createElement("div");
