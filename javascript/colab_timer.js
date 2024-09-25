@@ -112,7 +112,7 @@ onUiLoaded(function () {
 
   let img = document.createElement("img");
   img.src =
-    "https://i.ibb.co/LYyCJ0v/download-48-removebg-preview.png";
+    "https://raw.githubusercontent.com/vorstcavry/ncpt_colab_timer/main/vorstcavry.png";
   img.width = 24;
 
   let timerEl = document.createElement("div");
